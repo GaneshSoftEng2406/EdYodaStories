@@ -88,3 +88,40 @@ p{
     color: #0006;
     text-align:justify
 }
+
+
+#footer{
+    background-color: #172146;
+    padding: 80px 16%;
+    padding-top: 4px;
+    padding-left: 10px;
+
+    /* border:2px solid red; */
+    width: 83%;
+    height: 60%;
+    display: flex;
+    
+}
+  .section{
+    /* margin-right: 100px;  */
+    
+    
+
+    /* background-color: DodgerBlue; */
+    color:white;
+    /* border:2px solid black; */
+    width:80%;
+    height:60%;
+   
+    
+}
+ a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 25px;
+        
+       
+
+    }
+   

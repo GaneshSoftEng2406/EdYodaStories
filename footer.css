@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    
+    font-size: 16px;
+    background-color: #f2f6ff
+}
+
+/*header start */
+
+#header .navbar{
+   
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+
+
+#header .navbar .logo{
+
+    display: inline-block;
+   
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    background-color:white ;
+    
+}
+
+#header .navbar .logo span{
+    font-size: 32px;
+    
+    font-weight: 900;
+    font-family: Raleway , sans-serif;
+    color: #0084ff;
+    background-color: white;
+  
+
+    padding: 0px
+    
+}
+
+#header .navbar .logo p{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 38px;
+    
+}
+
+
+#header .navbar a{
+    text-decoration: none;
+    
+}
+
+#header .navbar .dropdown{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 350px;
+    
+}
+
+
+#header .navbar .dropdown p{
+    display: inline-block;
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+
+}
+
+
+
+#header .navbar .dropdown i{
+    padding-left: 10px;
+    position: absolute;
+    background-color: white;
+    font-size: 25px;
+    color: #000;
+}
+
+#header .navbar .tagline {
+    position: relative;
+    top: 30px;
+    left: 600px;
+    display: inline-block;
+    background-color: #fff;
+    color: grey;
+
+}
+
+#header .navbar .tagline  p{
+    display: inline-block;
+    background-color: #fff;
+}
+
+#header .navbar .button{
+    position: absolute;
+    right: 100px;
+    top: 27px;
+    background-color: #fff;
+}
+
+#header .navbar button{
+    
+    top: 30px;
+    background-color: #0084ff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* trending section */
+
+#container{
+    position: relative;
+}
+
+#container h3{
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Raleway , sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+
+}
+
+
+#container .interview{
+    display: inline-block;
+    background-image: url("https://edyoda.s3.amazonaws.com/media/blog-images/ace-soft-skills-small.jpg");
+    margin-left: 200px;
+    width: 640px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 8px 30px lightgrey;
+    opacity: 0.9;
+    background-size: contain;
+    
+}
+
+#container .interview:hover{
+    opacity: 1;
+}
+
+#container .aptitude{
+    background-image: url("https://edyoda.s3.amazonaws.com/media/blog-images/aptitude-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 88px;
+    left: 855px;
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+    border-radius: 5px;
+    box-shadow: 10px 8px 30px lightgrey;
+    opacity: 0.9;
+}
+#container .aptitude:hover{
+    opacity: 1;
+}
+
+#container .cloud-computing{
+    background-image:url("https://edyoda.s3.amazonaws.com/media/blog-images/learn_cloud_computing_70own2G.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 290px;
+    left: 855px;
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+    border-radius: 5px;
+    box-shadow: 10px 8px 30px lightgrey;
+    opacity: 0.9;
+}
+
+#container .cloud-computing:hover{
+    opacity: 1;
+}
+
+/* latest posts */
+
+#latest-posts .posts{
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+#latest-posts .posts h2{
+    font-family: Raleway , sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#latest-posts .posts i{
+    margin-top: 30px;
+    color: #0084ff;
+}
+
+#latest-posts .posts p{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+#latest-posts .posts .categories{
+    margin-top: 10px;
+}
+
+#latest-posts .posts .categories button{
+    padding: 4px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #0084ff;
+    color: #0084ff;
+}
+
+#latest-posts .posts .categories .all{
+    color: #fff;
+    background-color: #0084ff;
+}
+
+#items{
+  
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 1000px;
+    height: auto;
+    
+}
+
+#items .cards{
+  
+    align-items: center;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+#items .cards:hover{
+    box-shadow: 1px 1px 1px lightgray ;
+}
+
+#items .cards img{
+    border-radius: 4px;
+
+    width: 100%;
+    height: 150px;
+}
+
+#items .cards .des{
+   
+    padding-left: 10px;
+    font-family: Raleway , sans-serif;
+    display: inline-block;
+
+}
+
+#items .cards h5{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+#items .cards .des p{
+    margin: 10px 0;
+    text-decoration: none;
+    color: #0084ff;
+
+}
+
+#items .cards .des a{
+    text-decoration: none;
+    color: #0084ff;
+}
+
+#items .cards .des .description{
+    color: gray;
+}
+#items .cards .des p span{
+    color: #000;
+}
+
+#footer{
+    position: relative;
+    margin-top: 50px;
+    height: 450px;
+    background-color: #172146;
+}
+
+#footer .list1{
+    font-family: Raleway ,sans-serif;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    background-color: #172146;
+    list-style: none;
+
+}
+
+#footer .list2{
+    font-family: Raleway ,sans-serif;
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    background-color: #172146;
+    list-style: none;
+
+}
+
+#footer .list3{
+    font-family: Raleway ,sans-serif;
+    position: absolute;
+    left: 700px;
+    top: 80px;
+    background-color: #172146;
+    list-style: none;
+
+}
+
+#footer .list4{
+    font-family: Raleway ,sans-serif;
+    position: absolute;
+    left: 950px;
+    top: 80px;
+    background-color: #172146;
+    list-style: none;
+
+}
+
+#footer .list a{
+    text-decoration: none;
+    background-color: #172146;
+    color: #fff;
+    font-size: 13px;
+}
+
+#footer .list li{
+    
+    margin: 10px;
+    background-color: #172146;
+}
+#footer .list .head{
+    
+    
+    font-size: 18px;
+    color: darkgray;
+    font-weight: 600;
+}
+
+#footer .list p{
+    background-color: #172146;
+}
+
+#footer .list i{
+    font-size: 20px;
+    color: #fff;
+    background-color: #172146;
+}
